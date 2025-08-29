@@ -6,4 +6,3 @@ export default defineConfig({
   plugins: [react()],
   base: '/docs/', // Set base path for GitHub Pages
 });
-})
