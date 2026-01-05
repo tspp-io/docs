@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="container home-container">
       <div className="hero">
-        <img src="/logo.png" alt="tspp Logo" style={{ height: '120px', marginBottom: '2rem', filter: 'drop-shadow(0 0 20px rgba(88, 166, 255, 0.3))' }} />
+        <img src="logo.png" alt="tspp Logo" style={{ height: '120px', marginBottom: '2rem', filter: 'drop-shadow(0 0 20px rgba(88, 166, 255, 0.3))' }} />
         <h1>tspp Programming Language</h1>
         <p className="tagline">
           A modern systems programming language combining TypeScript-like syntax with Go-style semantics.

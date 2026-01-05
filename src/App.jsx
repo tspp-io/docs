@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Features from './pages/Features';
 import Usage from './pages/Usage';
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <nav className="navbar">
         <Link to="/" className="navbar-brand">
-          <img src="/logo.png" alt="tspp Logo" className="navbar-logo" />
+          <img src="logo.png" alt="tspp Logo" className="navbar-logo" />
           tspp
         </Link>
         <ul>
