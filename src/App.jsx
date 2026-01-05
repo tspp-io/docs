@@ -13,6 +13,10 @@ function App() {
   return (
     <Router>
       <nav className="navbar">
+        <Link to="/" className="navbar-brand">
+          <img src="/logo.png" alt="tspp Logo" className="navbar-logo" />
+          tspp
+        </Link>
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/features">Features</Link></li>
